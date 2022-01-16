@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style_media.css">
+  <link rel="stylesheet" href="./css/style_popup.css">
+  <link rel="stylesheet" href="./css/style_slider.css">
+  <link rel="stylesheet" href="./css/style_menu_mobile.css">
+
+
+</head>
+
+<body>
+
+  <div class="page_item picture_2">
+    <div class="container1">
+      <div class="row">
+        <div class="col-logo">
+          <a href="index.html"><img src="./images/logo.svg" alt=""></a>
+        </div>
+        <div class="site-navbar">
+          <nav class="menu">
+            <ul>
+              <li class="focus"><a href="index.html" class="nav-link">Home</a></li>
+              <li class="focus"><a href="services.html" class="nav-link">Services</a></li>
+              <li class="focus"><a href="cars.html" class="nav-link">Our Cars</a></li>
+              <li class="focus"><a  href="about.html" class="nav-link">About</a></li>
+              <li class="focus"><a href="blog.html" class="nav-link">Blog</a></li>
+              <li><a class="active" href="contact.html" class="nav-link">Contact</a></li>
+              <li class="focus"><a href="#" class="nav-link" onclick="document.getElementById('bucket_container').style.display = 'block';">Bucket<span id="totalCarRentBucket"></span></a></li>
+
+            </ul>
+          </nav>
+        </div>
+
+        <div class="icon-menu">
+        </div>
+
+        <div class="menu_mobile">
+          <div class="icon-close">
+          </div>
+          <ul>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="services.html" class="nav-link">Services</a></li>
+            <li><a href="cars.html" class="nav-link">Our Cars</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="blog.html" class="nav-link">Blog</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+            <li class="no-border"><a href="#" class="nav-link" onclick="document.getElementById('bucket_container').style.display = 'block';">Bucket</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row_item5 text-align-center">
+      <div class="bold">
+        <h1>Contact Us</h1>
+      </div>
+      <span style="color: white;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        Veritatis, modi eveniet iusto beatae voluptatem cupiditate dolores pariatur omnis
+        reprehenderit odit ad ex recusandae optio nihil! Quisquam praesentium magni magnam placeat!
+      </span>
+    </div>
+
+
+  </div>
+
+  <div class="contact_item">
+    <div class="row_item2 color padding-top">
+      <h1 class="text-align-center">Contact Us Or Use This Form To Rent A Car</h1>
+    </div>
+    <div class="form">
+
+      <div class="right_column">
+        <div class="address">
+          <div>
+            <h2 class="text_align_left padding-left padding-top">Contact Info</h2>
+            <h3 class="text_align_left padding-left margin_0">Address:</h3>
+            <div class="text_align_left padding-left margin_0 padding-bottom">34 Street Name, City Name Here, UnitedStates</div>
+            <h3 class="text_align_left padding-left margin_0">Phone:</h3>
+            <div class="text_align_left padding-left margin_0 padding-bottom">+1 242 4942 290</div>
+            <h3 class="text_align_left padding-left margin_0"> Email:</h3>
+            <div class="text_align_left padding-left margin_0">info@yourdomain.com</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <form>
+      <div class="form">
+        <div class="left_column">
+          <div class="row_form">
+            <div class="row_input"><input class="contact" type="text" placeholder="Name"></div>
+            <div class="row_input"><input class="contact" type="text" placeholder="SurName"></div>
+          </div>
+          <div class="row_form"><input class="contact1" type="text" placeholder="Your E-mail"></div>
+          <div class="row_form"><input class="contact1_1" type="text" placeholder="Wright you Message"></div>
+          <div class="row_form"><button class="send">Send Message</button></div>
+
+        </div>
+
+      </div>
+    </form>
+  </div>
+
+
+  <div class="container padding-top" id="bucket_container" hidden>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h2>Your order</h2>
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <tbody class="cart">
+                </tbody>
+                <tfoot>
+                        <td class="no-border"><Button class="btn btn-block btn-sm btn-outline-primary" onclick="document.getElementById('bucket_container').style.display = 'none';">Close</Button></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="text-right">Total: <strong class="total"></strong></td>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+  <div class="footer">
+
+  </div>
+
+
+  </div>
+
+	<script src="./js/cart-localstorage.min.js" type="text/javascript"></script>
+	<script src="./js/renderCart.js" type="text/javascript"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./js/menu.js"></script>
+  <script src="./js/popup.js"></script>
+
+</body>
+
+</html>

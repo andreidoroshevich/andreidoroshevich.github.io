@@ -1,0 +1,341 @@
+@media screen and (max-width: 1100px) {
+
+.page_item1 {
+  width: 100%;
+  height: 130vh;
+  max-height: 1200px;
+  position: relative;
+}
+
+.page_item1_1 {
+  width: 100%;
+  height: 80vh;
+  max-height: 650px;
+}
+
+.icon-menu {
+  display: block;
+}
+
+nav.menu {
+  display: none;
+}
+
+      
+.container1 {
+  width: 80%;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.align-items-center {
+  align-items: center;
+}
+
+.row {
+  width: 87%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.row-rent-box-2 {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+  
+.menu {
+  width: 100%;
+  height: 80px;
+  text-align: right;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+
+.car-rent-box-1 {
+  position: relative;
+  padding: 30px;
+  background: #fff;
+  flex: 0 0 64%;
+  max-width: 64%;
+  top: 15%;
+  left: 15%;
+}
+
+
+.car-rent-box-2 {
+  position: relative;
+  padding: 30px;
+  background: #fff;
+  flex: 0 0 80%;
+  max-width: 80%;
+  top: 10%;
+  left: 3.5%;
+}
+
+.no-border {
+  border-bottom: none;
+}
+
+.bottom {
+  width: 100%;
+  border: none;
+  background-color: rgb(209, 205, 205);
+  margin: auto;
+  margin-top: 20px;
+}
+
+.note-left {
+  width: 97%;
+  display: flex;
+  align-items: left;
+}
+
+.note-right {
+  width: 97%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+
+.container-trip-begin {
+  width: 70%;
+  position: absolute;
+  margin: auto;
+  background-color: white;
+  z-index: 2;
+  padding-bottom: 10px;
+}
+
+
+input {
+  width: 85%;
+  height: 50px;
+  padding-left: 10px;
+  background: #fff;
+  border-color: lightgrey;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  outline:none;
+  color: gray;
+}
+
+
+.col1 {
+  width: 70%;
+  height: 20vh;
+  max-height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.col2 {
+  width: 80%;
+  height: 20vh;
+  max-height: 200px;
+  margin-top: 50px;
+}
+
+.page_item_flex {
+  height: 250vh;
+  max-height:1600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.row_item2 {
+  width: 90%;
+  height: 100px;
+  margin: auto;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.row_item3 {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.color {
+  color: #364d59;
+  width: 50%;
+}
+
+
+.service {
+  width: 33%;
+  height: 90px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.row_item4 {
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  position: absolute;
+  left: 20%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #364d59;
+}
+
+.how-it-works {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.step {
+  z-index: 1;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+}
+
+
+.testimony {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-left: 0;
+  padding-bottom: 10px;
+  background-color: white;
+  
+}
+
+.page_item_testimony {
+  height: 120vh;
+  max-height: 1100px;
+}
+
+.blog_item {
+  width: 100%;
+  height: 270vh;
+  max-height: 1600px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+
+.form {
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+}
+
+
+@media screen and (max-width: 920px) {
+
+  .car-rent-box-1 {
+    flex: 0 0 63%;
+    max-width: 63%;
+  }
+
+.blog_item {
+  width: 100%;
+  height: 280vh;
+  max-height: 1700px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .car-rent-box-1 {
+    flex: 0 0 62%;
+    max-width: 62%;
+  }
+
+.blog_item {
+  width: 100%;
+  height: 230vh;
+  max-height: 1500px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+
+}
+
+
+@media screen and (max-width: 750px) {
+
+  .car-rent-box-1 {
+    flex: 0 0 61%;
+    max-width: 61%;
+}
+
+.blog_item {
+  width: 100%;
+  height: 230vh;
+  max-height: 1500px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+
+ 
+
+.page_item_testimony {
+  height: 110vh;
+  max-height: 850px;
+}
+
+
+}
+
+@media screen and (max-width: 730px) {
+
+  
+.page_item_testimony {
+  height: 150vh;
+  max-height: 1500px;
+}
+
+
+}
+
+
+@media screen and (max-width: 618px) {
+
+    body {
+        min-width: 618px;
+        overflow: auto;
+    }
+}

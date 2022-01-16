@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarRent</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style_media.css">
+    <link rel="stylesheet" href="./css/style_popup.css">
+    <link rel="stylesheet" href="./css/style_slider.css">
+    <link rel="stylesheet" href="./css/style_menu_mobile.css">
+
+
+</head>
+
+<body>
+
+    <div class="page_item picture_1_1">
+        <div class="container1">
+            <div class="row">
+                <div class="col-logo">
+                    <a href="index.html"><img src="./images/logo.svg" alt=""></a>
+                </div>
+                <div class="site-navbar">
+                    <nav class="menu">
+                        <ul>
+                            <li class="focus"><a href="index.html" class="nav-link">Home</a></li>
+                            <li class="focus"><a href="services.html" class="nav-link">Services</a></li>
+                            <li><a class="active" href="cars.html" class="nav-link">Our Cars</a></li>
+                            <li class="focus"><a href="about.html" class="nav-link">About</a></li>
+                            <li class="focus"><a href="blog.html" class="nav-link">Blog</a></li>
+                            <li class="focus"><a href="contact.html" class="nav-link">Contact</a></li>
+                            <li class="focus"><a href="#" class="nav-link" onclick="document.getElementById('bucket_container').style.display = 'block';">Bucket<span id="totalCarRentBucket"></span></a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="icon-menu">
+                </div>
+
+                <div class="menu_mobile">
+                    <div class="icon-close">
+                    </div>
+                    <ul>
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                        <li><a href="cars.html" class="nav-link">Our Cars</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="blog.html" class="nav-link">Blog</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                        <li class="no-border"><a href="#" class="nav-link" onclick="document.getElementById('bucket_container').style.display = 'block';">Bucket</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row_item5 text-align-center">
+            <div class="bold">
+                <h1> Our cars for rent</h1>
+            </div>
+            <span style="color: white;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Veritatis, modi eveniet iusto beatae voluptatem cupiditate dolores pariatur omnis 
+        reprehenderit odit ad ex recusandae optio nihil! Quisquam praesentium magni magnam placeat!
+      </span>
+        </div>
+
+
+    </div>
+
+
+    <div>
+        <div class="container padding-top">
+
+            <div class="card-deck mt-4 mb-4 text-center">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Range Rover S7</h4>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title pricing-card-title">$250/day</h2>
+                        <p><img src="./images/img_0.jpg" width="250px" alt=""></p>
+                        <button type="button" class="btn btn-block btn-outline-primary" onClick="cartLS.add({id: 1, name: 'Range Rover S7', price: 250})">Rent now</button>
+                    </div>
+                </div>
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Audi A7</h4>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title pricing-card-title">$200/day</h2>
+                        <p><img src="./images/img_1.jpg" width="250px" alt=""></p>
+                        <button type="button" class="btn btn-block btn-outline-primary" onClick="cartLS.add({id: 2, name: 'Audi A7', price: 200})">Rent now</button>
+                    </div>
+                </div>
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Chevrolet Corvette cabriolet</h4>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title pricing-card-title">$130/day</h2>
+                        <p><img src="./images/img_3.jpg" width="250px" alt=""></p>
+                        <button type="button" class="btn btn-block btn-outline-primary" onClick="cartLS.add({id: 3, name: 'Chevrolet Corvette cabriolet', price: 200})">Rent now</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card-deck mt-4 mb-4 text-center">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Hyundai Elantra</h4>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title pricing-card-title">$80/day</h2>
+                        <p><img src="./images/img_4.jpg" width="250px" alt=""></p>
+                        <button type="button" class="btn btn-block btn-outline-primary" onClick="cartLS.add({id: 4, name: 'Hyundai Elantra', price: 80})">Rent now</button>
+                    </div>
+                </div>
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">BMW 3-series coupe</h4>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title pricing-card-title">$150/day</h2>
+                        <p><img src="./images/img_2.jpg" width="250px" alt=""></p>
+                        <button type="button" class="btn btn-block btn-outline-primary" onClick="cartLS.add({id: 5, name: 'BMW 3-series coupe', price: 150})">Rent now</button>
+                    </div>
+                </div>
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Audi A5</h4>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title pricing-card-title">$170/day</h2>
+                        <p><img src="./images/img_5.jpg" width="250px" alt=""></p>
+                        <button type="button" class="btn btn-block btn-outline-primary" onClick="cartLS.add({id: 6, name: 'Audi A5', price: 170})">Rent now</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container padding-top" id="bucket_container" hidden>
+
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h2>Your order</h2>
+                </div>
+                <div class="card-body">
+                    <table class="table">
+                        <tbody class="cart">
+                        </tbody>
+                        <tfoot>
+                                <td class="no-border"><Button class="btn btn-block btn-sm btn-outline-primary" onclick="document.getElementById('bucket_container').style.display = 'none';">Close</Button></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="text-right">Total: <strong class="total"></strong></td>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer">
+
+        </div>
+
+
+        <script src="./js/cart-localstorage.min.js" type="text/javascript"></script>
+        <script src="./js/renderCart.js" type="text/javascript"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="./js/menu.js"></script>
+        <script src="./js/popup.js"></script>
+
+</body>
+
+</html>
